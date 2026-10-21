@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Maestrr — serveur multimédia auto-hébergé</title>
 <meta name="description" content="Maestrr installe et pilote votre serveur multimédia : Jellyfin, la suite ARR, qBittorrent, Immich et un dashboard commun. Sur Windows, Linux ou TrueNAS SCALE.">
-<meta name="theme-color" content="#f3f1ec" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#131416" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0c1015">
+
 <meta property="og:title" content="Maestrr — serveur multimédia auto-hébergé">
 <meta property="og:description" content="Un assistant d'installation et un dashboard pour votre serveur multimédia.">
 <meta property="og:image" content="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/dashboard.png">
 <link rel="icon" href="logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,16 +29,7 @@
 
 <main>
   <section class="hero" id="telecharger">
-    <div class="hero-text">
-      <h1>Votre serveur multimédia, installé et piloté au même endroit.</h1>
-      <p class="lead">Maestrr installe Jellyfin, Radarr, Sonarr, qBittorrent et les autres applications de votre choix, les configure ensemble, puis vous donne un dashboard pour demander, suivre et regarder vos films, séries, animés et albums.</p>
-      <div class="actions">
-        <a id="beta" class="button" href="https://github.com/Maestrr-app/maestrr-releases/releases/download/v1.6.0-beta.9/Maestrr-Setup-1.6.0-beta.9-win-x64.exe">Télécharger la bêta</a>
-        <a id="notes" class="link" href="https://github.com/Maestrr-app/maestrr-releases/releases/tag/v1.6.0-beta.9">Notes de version</a>
-      </div>
-      <p class="meta"><span id="beta-version">1.6.0-beta.9</span> · Windows 10/11 x64 · installe sur ce PC, un serveur Linux ou TrueNAS SCALE</p>
-      <p class="meta" id="stable-status">Version stable : pas encore publiée.</p>
-    </div>
+    <div class="hero-top"><div class="hero-text"><p class="kicker">LE SERVEUR MULTIMÉDIA À VOTRE MAIN</p><h1>Vos médias.<br>Votre serveur.<br><span>Maestrr.</span></h1><p class="lead">Installez vos applications. Retrouvez vos films, séries et albums dans une interface commune, chez vous.</p><div class="hero-platforms">Windows <i></i> Linux <i></i> TrueNAS SCALE</div></div><aside class="download-panel" aria-label="Télécharger Maestrr"><img src="logo.svg" width="56" height="56" alt=""><h2>Installez Maestrr</h2><p>Un setup Windows, pour votre PC ou votre serveur distant.</p><div class="actions"><a id="beta" class="button" href="https://github.com/Maestrr-app/maestrr-releases/releases/download/v1.6.0-beta.9/Maestrr-Setup-1.6.0-beta.9-win-x64.exe">Télécharger la bêta</a><p class="meta"><span id="beta-version">1.6.0-beta.9</span> · Windows x64 · EXE</p><a id="notes" class="link" href="https://github.com/Maestrr-app/maestrr-releases/releases/tag/v1.6.0-beta.9">Notes de version</a></div><p class="meta stable" id="stable-status">Version stable : pas encore publiée.</p></aside></div>
     <figure class="shot hero-shot">
       <img src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/dashboard.png" alt="Dashboard Maestrr : collection et demandes en cours, avec accès à Jellyfin" width="1815" height="867" fetchpriority="high">
       <figcaption>Le dashboard : vos demandes, leur état et la lecture dans Jellyfin.</figcaption>
@@ -53,7 +44,7 @@
 
   <section class="feature" id="dashboard">
     <div class="copy">
-      <h2>Trouver quoi regarder</h2>
+      <p class="kicker">DÉCOUVERTE</p><h2>Ce soir,<br>vous regardez quoi ?</h2>
       <p>Nouveautés, tendances, studios et genres, avec un espace pour les films, les séries, l'animation et la musique.</p>
     </div>
     <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/decouverte.png" alt="Découverte et affiches des films populaires" width="1878" height="946"><figcaption>Découverte des films.</figcaption></figure>
@@ -61,7 +52,7 @@
 
   <section class="feature">
     <div class="copy">
-      <h2>Demander et suivre</h2>
+      <p class="kicker">VOTRE COLLECTION</p><h2>Du choix<br>à la lecture.</h2>
       <p>Une fiche par média : informations, choix de la qualité et du dossier, suivi de l'import, puis lecture quand le fichier est disponible.</p>
     </div>
     <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/fiche-media.png" alt="Fiche de film : qualité, disponibilité et lecture dans Jellyfin" width="1891" height="946"><figcaption>Fiche d'un film disponible dans Jellyfin.</figcaption></figure>
@@ -74,7 +65,7 @@
 
   <section class="feature narrow-shot">
     <div class="copy">
-      <h2>Gérer le serveur</h2>
+      <p class="kicker">APPLICATIONS</p><h2>Le serveur aussi<br>a son interface.</h2>
       <p>Les applications, les notifications, les journaux, les mises à jour, les comptes et leurs droits sont accessibles depuis le même menu.</p>
     </div>
     <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/applications.png" alt="Menu Maestrr et commandes des applications" width="922" height="842"><figcaption>Menu des applications.</figcaption></figure>
@@ -86,7 +77,7 @@
   </section>
 
   <section class="apps">
-    <h2>Les applications</h2>
+    <p class="kicker">VOTRE INSTALLATION</p><h2>Les applications que vous connaissez.<br>Enfin réunies.</h2>
     <table>
       <tbody>
         <tr><th scope="row">Jellyfin</th><td>Médiathèque et lecture</td></tr>
@@ -104,22 +95,17 @@
   </section>
 
   <section class="install" id="installation">
-    <h2>Installation</h2>
+    <p class="kicker">POUR COMMENCER</p><h2>Choisissez votre machine.</h2>
     <p class="lead">Le setup se lance sur Windows. Il installe sur ce PC ou prépare un serveur distant par SSH.</p>
     <dl class="targets">
       <div><dt>PC Windows</dt><dd>Docker Desktop et WSL2. Le setup vérifie la machine et installe ce qui manque.</dd></div>
       <div><dt>Serveur Linux</dt><dd>Debian ou Ubuntu 64 bits, accès SSH avec un compte root ou sudo. Docker est installé si besoin.</dd></div>
       <div><dt>TrueNAS SCALE</dt><dd>Version 24.10 ou suivante. Maestrr devient une application native, dans Apps.</dd></div>
     </dl>
-    <ol class="steps">
-      <li>Choisissez la destination et vérifiez le serveur.</li>
-      <li>Indiquez vos dossiers : le setup crée ceux qui manquent et contrôle les droits.</li>
-      <li>Choisissez les applications, le VPN et vos comptes.</li>
-      <li>Lancez l'installation, puis ouvrez le dashboard.</li>
-    </ol>
+    <p class="install-note">Le setup vérifie les prérequis et les droits, puis vous accompagne dans le choix des applications, des dossiers et des comptes.</p><a class="button secondary" href="#telecharger">Retrouver le téléchargement</a>
   </section>
 
-  <section class="beta">
+  <section class="beta"><details><summary>Vous installez la bêta pour la première fois ?</summary>
     <h2>Avant d'installer la bêta</h2>
     <p>Essayez-la d'abord sur une machine de test et gardez une sauvegarde de vos configurations.</p>
     <p>Le setup n'est pas encore signé. Edge et Windows peuvent donc le bloquer :</p>
@@ -128,7 +114,7 @@
       <li>au lancement, cliquez sur <em>Informations complémentaires</em>, puis sur <em>Exécuter quand même</em>.</li>
     </ol>
     <p>Avant de l'exécuter, comparez son empreinte SHA-256 avec celle des <a href="https://github.com/Maestrr-app/maestrr-releases/releases">notes de version</a>.</p>
-  </section>
+  </details></section>
 </main>
 
 <footer class="site-footer">
