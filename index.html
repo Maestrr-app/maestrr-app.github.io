@@ -1,12 +1,141 @@
 <!doctype html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Maestrr — Votre multimédia, chez vous</title><meta name="description" content="Installez et pilotez votre serveur multimédia avec Maestrr. Films, séries, animés, musique et accès distant. Windows, Linux et TrueNAS."><meta name="theme-color" content="#0b1017"><meta property="og:title" content="Maestrr — Votre multimédia, chez vous"><meta property="og:description" content="Un serveur à vous. Tous vos médias. Une seule interface."><meta property="og:image" content="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/dashboard.png"><link rel="icon" href="logo.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head>
-<body><header><a class="brand" href="#"><img src="logo.svg" alt="" width="40" height="40">Maestrr<span>VOTRE SERVEUR. VOS RÈGLES.</span></a><nav aria-label="Navigation principale"><a href="#experience">Découvrir</a><a href="#installation">Installation</a><a href="https://github.com/Maestrr-app/maestrr-releases">GitHub</a><a class="nav-download" href="#telecharger">Télécharger</a></nav></header>
-<main><section class="hero" id="telecharger"><div class="eyebrow"><span></span> VOTRE MULTIMÉDIA, CHEZ VOUS</div><h1>Un serveur à vous.<br>Tous vos médias.<br><em>Une seule interface.</em></h1><p class="lead">Films, séries, animés et musique. Maestrr installe vos applications et rassemble votre collection, vos demandes et votre serveur dans un dashboard.</p><div class="download-grid"><a id="beta" class="download primary" href="https://github.com/Maestrr-app/maestrr-releases/releases/download/v1.6.0-beta.8/Maestrr-Setup-1.6.0-beta.8-win-x64.exe"><span>Télécharger la bêta</span><small id="beta-version">1.6.0-beta.8 · Windows x64 · .exe</small></a><div id="stable-wrap" class="download unavailable"><span>Version stable</span><small>Pas encore disponible</small></div></div><p class="download-note" id="release-status" aria-live="polite">Le setup Windows installe sur votre PC ou sur votre serveur distant.</p><div class="platforms"><span>Windows</span><span>Linux · SSH</span><span>TrueNAS SCALE 24.10+</span></div><a class="subtle" href="https://github.com/Maestrr-app/maestrr-releases/releases">Notes de version & empreintes SHA256</a><div class="hero-screen"><div class="window-top"><i></i><i></i><i></i><span>Maestrr / Mes demandes en cours</span></div><img src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/dashboard.png" alt="Dashboard Maestrr : collection et demandes avec accès à Jellyfin" width="1815" height="867" fetchpriority="high"></div></section>
-<section class="intro" id="experience"><div><div class="eyebrow">MOINS DE FENÊTRES. PLUS DE CINÉMA.</div><h2>De l'envie de voir<br>au plaisir de lire.</h2></div><p>Découvrez un média, choisissez votre qualité et suivez sa disponibilité. Quand votre média est prêt, ouvrez-le dans Jellyfin. Votre serveur reste chez vous.</p></section>
-<section class="feature"><div class="feature-copy"><span class="number">01 / DÉCOUVRIR</span><h2>Votre prochaine<br>séance commence ici.</h2><p>Explorez les nouveautés, les tendances, les studios et les genres. Retrouvez films, séries, animation et albums dans leurs espaces dédiés.</p><div class="tags"><span>Films</span><span>Séries</span><span>Animés</span><span>Musique</span></div></div><figure><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/decouverte.png" alt="Découverte et affiches des films populaires" width="1878" height="946"></figure></section>
-<section class="feature reverse"><div class="feature-copy"><span class="number">02 / DEMANDER</span><h2>Le bon média.<br>La bonne qualité.</h2><p>Une fiche pour retrouver les informations, choisir le dossier et la qualité, suivre l'importation et accéder à la lecture lorsqu'elle est disponible.</p></div><figure><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/fiche-media.png" alt="Fiche de film : qualité, disponibilité et lecture dans Jellyfin" width="1891" height="946"></figure></section>
-<section class="duo"><article><span class="number">SAISONS & ÉPISODES</span><h3>À votre rythme.</h3><p>Choisissez les saisons et les épisodes à suivre.</p><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/saisons-episodes.png" alt="Sélection des saisons dans Maestrr" width="1893" height="934"></article><article><span class="number">TÉLÉCHARGEMENTS</span><h3>Gardez le fil.</h3><p>Progression, débits et commandes, au même endroit.</p><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/telechargements.png" alt="Suivi des téléchargements qBittorrent" width="1488" height="841"></article></section>
-<section class="feature"><div class="feature-copy"><span class="number">03 / PILOTER</span><h2>Tout votre serveur.<br>À portée de main.</h2><p>Accédez à vos applications, aux notifications, aux journaux et aux mises à jour. Gérez les comptes et les droits depuis votre interface.</p><div class="tags"><span>Jellyfin</span><span>Suite ARR</span><span>Immich</span><span>qBittorrent</span><span>Nginx Proxy Manager</span></div></div><figure class="menu-shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/applications.png" alt="Menu Maestrr et commandes des applications" width="922" height="842"></figure></section>
-<section class="duo"><article><span class="number">ACCÈS DISTANT / TAILSCALE</span><h3>Chez vous. Même ailleurs.</h3><p>Connectez vos appareils et configurez vos liens HTTPS pour retrouver votre serveur à distance.</p><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/tailscale.png" alt="Connexion Tailscale et appareils de démonstration" width="1297" height="882"></article><article><span class="number">RÉSEAU / VPN OPTIONNEL</span><h3>Une connexion visible.</h3><p>Comparez les débits avec et sans VPN. Capture avant mesure ; aucune performance annoncée.</p><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/test-debit.png" alt="Interface du test de débit avant mesure" width="1642" height="846"></article></section>
-<section class="install install-choice" id="installation"><div class="install-heading"><h2>Où héberger Maestrr ?</h2><p>Le même setup Windows pour votre PC, votre serveur Linux ou votre NAS.</p><a class="button" href="#telecharger">Télécharger le setup</a></div><div class="destinations"><div class="destination"><h3>Sur votre PC Windows</h3><p>Installation locale des applications et du dashboard.</p><span>Le setup vérifie les prérequis de la machine.</span></div><div class="destination"><h3>Sur un serveur Linux</h3><p>Déploiement à distance depuis votre PC, par SSH.</p><span>Préparez un compte SSH avec les droits nécessaires et des dossiers dédiés.</span></div><div class="destination"><h3>Sur TrueNAS SCALE</h3><p>Installation dans les Apps natives du NAS.</p><span>Version 24.10 ou suivante compatible, pool Apps et datasets accessibles aux applications.</span></div></div><div class="install-bottom"><p>Vous choisissez les applications, les ports et les dossiers. Le setup vous accompagne pour les vérifications et la configuration.</p><details><summary>Avant d'installer la bêta</summary><p>Privilégiez une machine de test et sauvegardez vos configurations. L'installateur actuel n'est pas signé : Windows peut afficher SmartScreen. Téléchargez-le depuis les Releases officielles et vérifiez son empreinte SHA256.</p><a href="https://github.com/Maestrr-app/maestrr-releases/releases">Consulter les versions et les empreintes</a></details></div></section>
-</main><footer><a class="brand" href="#"><img src="logo.svg" alt="" width="30" height="30">Maestrr</a><p>Auto-hébergé. Sans compte Maestrr centralisé.<br>Vos propres médias, services et sources autorisées.</p><a href="https://github.com/Maestrr-app/maestrr-releases/releases">Versions & téléchargements</a><small>Captures de présentation. Les noms, affiches et logos tiers appartiennent à leurs détenteurs. Aucun partenariat implicite. Les catalogues et images utilisent des fournisseurs externes.</small></footer><script src="releases.js" defer></script></body></html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maestrr — serveur multimédia auto-hébergé</title>
+<meta name="description" content="Maestrr installe et pilote votre serveur multimédia : Jellyfin, la suite ARR, qBittorrent, Immich et un dashboard commun. Sur Windows, Linux ou TrueNAS SCALE.">
+<meta name="theme-color" content="#f3f1ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131416" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Maestrr — serveur multimédia auto-hébergé">
+<meta property="og:description" content="Un assistant d'installation et un dashboard pour votre serveur multimédia.">
+<meta property="og:image" content="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/dashboard.png">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#"><img src="logo.svg" alt="" width="28" height="28">Maestrr</a>
+  <nav aria-label="Navigation principale">
+    <a href="#dashboard">Le dashboard</a>
+    <a href="#installation">Installation</a>
+    <a href="https://github.com/Maestrr-app/maestrr-releases/releases">Versions</a>
+    <a class="nav-download" href="#telecharger">Télécharger</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="telecharger">
+    <div class="hero-text">
+      <h1>Votre serveur multimédia, installé et piloté au même endroit.</h1>
+      <p class="lead">Maestrr installe Jellyfin, Radarr, Sonarr, qBittorrent et les autres applications de votre choix, les configure ensemble, puis vous donne un dashboard pour demander, suivre et regarder vos films, séries, animés et albums.</p>
+      <div class="actions">
+        <a id="beta" class="button" href="https://github.com/Maestrr-app/maestrr-releases/releases/download/v1.6.0-beta.9/Maestrr-Setup-1.6.0-beta.9-win-x64.exe">Télécharger la bêta</a>
+        <a id="notes" class="link" href="https://github.com/Maestrr-app/maestrr-releases/releases/tag/v1.6.0-beta.9">Notes de version</a>
+      </div>
+      <p class="meta"><span id="beta-version">1.6.0-beta.9</span> · Windows 10/11 x64 · installe sur ce PC, un serveur Linux ou TrueNAS SCALE</p>
+      <p class="meta" id="stable-status">Version stable : pas encore publiée.</p>
+    </div>
+    <figure class="shot hero-shot">
+      <img src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/dashboard.png" alt="Dashboard Maestrr : collection et demandes en cours, avec accès à Jellyfin" width="1815" height="867" fetchpriority="high">
+      <figcaption>Le dashboard : vos demandes, leur état et la lecture dans Jellyfin.</figcaption>
+    </figure>
+  </section>
+
+  <section class="facts" aria-label="En bref">
+    <div><h2>Chez vous</h2><p>Tout tourne sur votre machine. Pas de compte Maestrr, pas de service central.</p></div>
+    <div><h2>Configuré pour vous</h2><p>Comptes, clés d'API, dossiers et liens entre applications sont réglés par le setup.</p></div>
+    <div><h2>Vos applications</h2><p>Vous choisissez ce qui est installé, avec leurs ports et vos dossiers de médias.</p></div>
+  </section>
+
+  <section class="feature" id="dashboard">
+    <div class="copy">
+      <h2>Trouver quoi regarder</h2>
+      <p>Nouveautés, tendances, studios et genres, avec un espace pour les films, les séries, l'animation et la musique.</p>
+    </div>
+    <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/decouverte.png" alt="Découverte et affiches des films populaires" width="1878" height="946"><figcaption>Découverte des films.</figcaption></figure>
+  </section>
+
+  <section class="feature">
+    <div class="copy">
+      <h2>Demander et suivre</h2>
+      <p>Une fiche par média : informations, choix de la qualité et du dossier, suivi de l'import, puis lecture quand le fichier est disponible.</p>
+    </div>
+    <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/fiche-media.png" alt="Fiche de film : qualité, disponibilité et lecture dans Jellyfin" width="1891" height="946"><figcaption>Fiche d'un film disponible dans Jellyfin.</figcaption></figure>
+  </section>
+
+  <section class="pair">
+    <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/saisons-episodes.png" alt="Sélection des saisons et des épisodes" width="1893" height="934"><figcaption><strong>Saisons et épisodes.</strong> Choisissez précisément ce que vous suivez.</figcaption></figure>
+    <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/telechargements.png" alt="Suivi des téléchargements qBittorrent" width="1488" height="841"><figcaption><strong>Téléchargements.</strong> Progression, débits et commandes de qBittorrent.</figcaption></figure>
+  </section>
+
+  <section class="feature narrow-shot">
+    <div class="copy">
+      <h2>Gérer le serveur</h2>
+      <p>Les applications, les notifications, les journaux, les mises à jour, les comptes et leurs droits sont accessibles depuis le même menu.</p>
+    </div>
+    <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/applications.png" alt="Menu Maestrr et commandes des applications" width="922" height="842"><figcaption>Menu des applications.</figcaption></figure>
+  </section>
+
+  <section class="pair">
+    <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/tailscale.png" alt="Connexion Tailscale et appareils de démonstration" width="1297" height="882"><figcaption><strong>Accès à distance.</strong> Avec Tailscale, retrouvez votre serveur hors de chez vous, en HTTPS.</figcaption></figure>
+    <figure class="shot"><img loading="lazy" src="https://raw.githubusercontent.com/Maestrr-app/maestrr-releases/main/images/test-debit.png" alt="Interface du test de débit avant mesure" width="1642" height="846"><figcaption><strong>VPN facultatif.</strong> Test de débit avec et sans VPN (capture avant mesure).</figcaption></figure>
+  </section>
+
+  <section class="apps">
+    <h2>Les applications</h2>
+    <table>
+      <tbody>
+        <tr><th scope="row">Jellyfin</th><td>Médiathèque et lecture</td></tr>
+        <tr><th scope="row">Radarr, Sonarr, Lidarr</th><td>Films, séries et albums</td></tr>
+        <tr><th scope="row">Prowlarr, qBittorrent, Bazarr</th><td>Indexeurs, téléchargements et sous-titres</td></tr>
+        <tr><th scope="row">Seerr</th><td>Demandes de médias</td></tr>
+        <tr><th scope="row">Listenarr</th><td>Livres audio</td></tr>
+        <tr><th scope="row">Immich</th><td>Photos et vidéos</td></tr>
+        <tr><th scope="row">Nginx Proxy Manager</th><td>Proxy inverse</td></tr>
+        <tr><th scope="row">Tailscale</th><td>Accès distant privé</td></tr>
+        <tr><th scope="row">Gluetun</th><td>VPN pour les téléchargements</td></tr>
+      </tbody>
+    </table>
+    <p class="note">Toutes sont facultatives. Chaque logiciel garde ses propres prérequis et conditions d'utilisation.</p>
+  </section>
+
+  <section class="install" id="installation">
+    <h2>Installation</h2>
+    <p class="lead">Le setup se lance sur Windows. Il installe sur ce PC ou prépare un serveur distant par SSH.</p>
+    <dl class="targets">
+      <div><dt>PC Windows</dt><dd>Docker Desktop et WSL2. Le setup vérifie la machine et installe ce qui manque.</dd></div>
+      <div><dt>Serveur Linux</dt><dd>Debian ou Ubuntu 64 bits, accès SSH avec un compte root ou sudo. Docker est installé si besoin.</dd></div>
+      <div><dt>TrueNAS SCALE</dt><dd>Version 24.10 ou suivante. Maestrr devient une application native, dans Apps.</dd></div>
+    </dl>
+    <ol class="steps">
+      <li>Choisissez la destination et vérifiez le serveur.</li>
+      <li>Indiquez vos dossiers : le setup crée ceux qui manquent et contrôle les droits.</li>
+      <li>Choisissez les applications, le VPN et vos comptes.</li>
+      <li>Lancez l'installation, puis ouvrez le dashboard.</li>
+    </ol>
+  </section>
+
+  <section class="beta">
+    <h2>Avant d'installer la bêta</h2>
+    <p>Essayez-la d'abord sur une machine de test et gardez une sauvegarde de vos configurations.</p>
+    <p>Le setup n'est pas encore signé. Edge et Windows peuvent donc le bloquer :</p>
+    <ol>
+      <li>dans les téléchargements d'Edge, ouvrez le menu <kbd>…</kbd> du fichier, puis <em>Conserver</em> → <em>Afficher plus</em> → <em>Conserver quand même</em> ;</li>
+      <li>au lancement, cliquez sur <em>Informations complémentaires</em>, puis sur <em>Exécuter quand même</em>.</li>
+    </ol>
+    <p>Avant de l'exécuter, comparez son empreinte SHA-256 avec celle des <a href="https://github.com/Maestrr-app/maestrr-releases/releases">notes de version</a>.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p><a class="brand" href="#"><img src="logo.svg" alt="" width="20" height="20">Maestrr</a> Auto-hébergé, sans compte central. Vos médias, vos services, vos sources.</p>
+  <p><a href="https://github.com/Maestrr-app/maestrr-releases/releases">Versions et téléchargements</a></p>
+  <p class="legal">Captures de présentation. Les noms, affiches et logos tiers appartiennent à leurs détenteurs, sans partenariat. Maestrr ne fournit aucun média ni abonnement.</p>
+</footer>
+<script src="releases.js" defer></script>
+</body>
+</html>
